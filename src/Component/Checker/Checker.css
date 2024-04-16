@@ -1,0 +1,59 @@
+/* FileUploader.css */
+.file-uploader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the container takes up the full viewport height */
+  }
+  
+  .custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 50%; /* Make the border circular */
+    width: 70px; /* Set width and height to maintain circular shape */
+    height: 70px;
+    cursor: pointer;
+  }
+
+  .custom-file-upload svg {
+    font-size: 65px; /* Increase the size of the icon */
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+    text-align: center; /* Center the button */
+  }
+  
+  .button-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add smooth transition */
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  
+  .uploaded-image-container {
+    margin-top: 20px;
+  }
+  
+  .uploaded-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+ 
